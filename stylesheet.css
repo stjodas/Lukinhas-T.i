@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Fonte Customizada */
+
+@font-face {
+    font-family: Lukinhas;
+    src: url(VTKS\ ROCK\ GARAGE\ BAND.ttf);
+}
+
+@font-face {
+    font-family: Lukinhas2;
+    src: url(SCARYNIZO.otf);
+}
+
+@font-face {
+    font-family: Lukinhas3;
+    src: url(SCARYNIZO2.otf);
+}
+
+
+/*Efeito Glow*/
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b50303, 0 0 40px #b50303, 0 0 50px #b50303, 0 0 60px #b50303, 0 0 70px #b50303;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #f00505, 0 0 40px #f00505, 0 0 50px #f00505, 0 0 60px #f00505, 0 0 70px #f00505, 0 0 80px #f00505;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    background-color: #030303;
+}
+
+.header {
+    background-color: #030303;
+    color: #330202;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    font-family: Lukinhas;
+}
+
+.pentagrama {
+    position: flex;
+    left: 90px;
+}
+
+.texto {
+    color: rgb(156, 2, 2);
+    font-size-adjust: initial;
+    font: italic;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #5f0000;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #5f0000;
+}
+
+.aside {
+    background-color: #5f0000;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    font-family: Lukinhas3;
+}
+
+.imgfooter {
+    background-image: url(blood.jpg);
+    color: #ffffff;
+    bottom: 50px;
+    padding: 215px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover
+}
+
+.text {
+    position: absolute;
+    top: 2000px;
+    text-align: center;
+}
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+    color: rgb(156, 2, 2);
+    font-family: Lukinhas2;
+    font-size: 30px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+    color: rgb(156, 2, 2);
+    font-family: Lukinhas2;
+    font-size: 30px;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .imgfooter {
+        background-image: url(blood.jpg);
+        color: #ffffff;
+        bottom: 50px;
+        padding: 150px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover
+    }
+    .text {
+        top: 2400px;
+        font-size: 12px;
+    }
+    .glow {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 2s ease-in-out infinite alternate;
+        -moz-animation: glow 2s ease-in-out infinite alternate;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px rgb(2, 2, 2), 0 0 20px rgb(0, 0, 0), 0 0 30px #b50303, 0 0 40px #b50303, 0 0 50px #b50303, 0 0 60px #b50303, 0 0 70px #b50303;
+        }
+        to {
+            text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #f00505, 0 0 40px #f00505, 0 0 50px #f00505, 0 0 60px #f00505, 0 0 70px #f00505, 0 0 80px #f00505;
+        }
+    }
+    .col-6 {
+        width: 70%;
+        color: rgb(156, 2, 2);
+        font-family: Lukinhas2;
+        font-size: 40px;
+    }
+    .aside {
+        background-color: #5f0000;
+        padding: 15px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        font-family: Lukinhas3;
+    }
+}
