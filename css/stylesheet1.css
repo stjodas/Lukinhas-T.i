@@ -79,8 +79,6 @@ body {
     left: 40%;
 }
 
-.overflow {}
-
 .sata {
     position: relative;
     font-size: 15px;
@@ -121,8 +119,6 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     font-family: Lukinhas3;
 }
-
-.navbar {}
 
 .imgfooter {
     background-image: url(blood.jpg);
@@ -183,12 +179,6 @@ footer {
     background-color: #b50303;
     height: auto;
     width: auto;
-}
-
-<i class="fab fa-facebook-f fa-lg white-text mr-4"></i></a><!-- Twitter --><a class="tw-ic"><i class="fab fa-twitter fa-lg white-text mr-4"></i></a><!-- Google+--><a class="gplus-ic"><i class="fab fa-google-plus-g fa-lg white-text mr-4"></i></a><!--Linkedin --><a class="li-ic"><i class="fab fa-linkedin-in fa-lg white-text mr-4"></i></a><!--Instagram--><a class="ins-ic"><i class="fab fa-instagram fa-lg white-text mr-4"></i></a><!--Pinterest--><a class="pin-ic"><i class="fab fa-pinterest fa-lg white-text"></i></a></div></div><!-- Grid column --></div><!-- Grid row--></div><!-- Footer Links --><!-- Copyright --><div class="footer-copyright text-center py-3">© 2020 Copyright: <a href="https://stjodas.github.io/">Lukinhas,
-o Suporte Trevoso de T.I</a></div><!-- Copyright --></footer></body></html>='col-'] {
-    float: left;
-    padding: 15px;
 }
 
 html {
