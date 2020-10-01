@@ -1,0 +1,15 @@
+{
+    "folders": [
+		{
+			"name": "Aulas",
+			"path": "..\\..\\..\\Desktop\\Programação Cursos (Fora da FATEC)\\IGTI\\Web Front End\\Aulas\\Modulo I\\Aula programação\\Aulas"
+		},
+		{
+			"name": "Super Calculadora (corrigida)",
+			"path": "..\\..\\..\\Desktop\\Super Calculadora (corrigida)"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Aulas"
+    }
+}
